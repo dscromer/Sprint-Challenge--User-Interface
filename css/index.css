@@ -81,7 +81,10 @@ nav {
 a {
     text-decoration: none;
     color: black;
-    
+}
+
+.top-pic {
+    margin-bottom: 50px;
 }
 
 .top-content {
