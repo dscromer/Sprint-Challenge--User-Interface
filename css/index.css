@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover{
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
+}
+
+.top-pic {
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,8 +103,35 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 10px;
     padding-bottom: 20px;  
+}
+
+.text-container:hover {
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
+}
+
+@keyframes pulse {
+    from {
+        background: white;
+        color: black;
+    }
+    
+    to {
+        background: black;
+        color: white;
+    }
+}
+
+.text-container2 {
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+}
+
+.text-container2:hover {
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
 }
 
 .middle-content {
@@ -104,12 +153,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.b1 {
+    background: teal;
+
+}
+
+.b2 {
+    background: gold;
+}
+
+.b3 {
+    background: cadetblue;
+}
+
+.b4 {
+    background: coral;
+}
+
+.b5 {
+    background: crimson;
+}
+
+.b6 {
+    background: forestgreen;
+}
+
+.b7 {
+    background: darkorchid;
+}
+
+.b8 {
+    background: hotpink;
+}
+
+.b9 {
+    background: indigo;
+}
+
+.b10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -119,12 +208,9 @@ p {
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding: 10px;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
 
 footer {
     width: 100%;
@@ -144,3 +230,80 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.module-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.mod-pic {
+    margin-bottom: 20px;
+}
+
+.learn {
+    font-size: 80%;
+	font-family: inherit;
+	border: solid 2px black;
+	padding: 7px;
+	width: 30%;
+	height: 35px;
+	margin-top: 15px;
+	background: white;
+	border-radius: 10px;
+}
+
+.learn:hover {
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=message], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkred;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
