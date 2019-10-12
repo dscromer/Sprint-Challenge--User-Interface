@@ -124,12 +124,52 @@ a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.b1 {
+    background: teal;
+
+}
+
+.b2 {
+    background: gold;
+}
+
+.b3 {
+    background: cadetblue;
+}
+
+.b4 {
+    background: coral;
+}
+
+.b5 {
+    background: crimson;
+}
+
+.b6 {
+    background: forestgreen;
+}
+
+.b7 {
+    background: darkorchid;
+}
+
+.b8 {
+    background: hotpink;
+}
+
+.b9 {
+    background: indigo;
+}
+
+.b10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -163,4 +203,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.module-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.mod-pic {
+    margin-bottom: 20px;
+}
+
+.learn {
+    font-size: 80%;
+	font-family: inherit;
+	border: solid 2px black;
+	padding: 7px;
+	width: 30%;
+	height: 35px;
+	margin-top: 15px;
+	background: white;
+	border-radius: 10px;
 }
