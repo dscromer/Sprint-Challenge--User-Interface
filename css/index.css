@@ -211,9 +211,6 @@ a:hover{
     padding: 10px;
 }
 
-.bottom-content .text-container:last-child {
-    
-}
 
 footer {
     width: 100%;
@@ -268,3 +265,45 @@ footer nav a {
     animation: pulse 1s 1;
     animation-fill-mode: both;
 }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=message], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkred;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
