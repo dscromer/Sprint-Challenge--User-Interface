@@ -81,6 +81,12 @@ nav {
 a {
     text-decoration: none;
     color: black;
+    padding: 10px;
+}
+
+a:hover{
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
 }
 
 .top-pic {
@@ -97,12 +103,35 @@ a {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 10px;
     padding-bottom: 20px;  
+}
+
+.text-container:hover {
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
+}
+
+@keyframes pulse {
+    from {
+        background: white;
+        color: black;
+    }
+    
+    to {
+        background: black;
+        color: white;
+    }
 }
 
 .text-container2 {
     margin: 0px 20px 20px 20px;
+    padding: 10px;
+}
+
+.text-container2:hover {
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
 }
 
 .middle-content {
@@ -179,11 +208,11 @@ a {
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding: 10px;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+    
 }
 
 footer {
@@ -233,4 +262,9 @@ footer nav a {
 	margin-top: 15px;
 	background: white;
 	border-radius: 10px;
+}
+
+.learn:hover {
+    animation: pulse 1s 1;
+    animation-fill-mode: both;
 }
